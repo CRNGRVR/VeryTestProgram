@@ -29,6 +29,7 @@
 		2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDView.swift; sourceTree = "<group>"; };
 		2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomFontsView.swift; sourceTree = "<group>"; };
 		2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pangolin-Regular.ttf"; sourceTree = "<group>"; };
+		2CFD74982A1A160F00325C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 				2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */,
 				2C54FCC52A19043700468D02 /* ParentView.swift */,
 				2C54FCD32A19093600468D02 /* NavVM.swift */,
+				2CFD74982A1A160F00325C9B /* Info.plist */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -322,7 +324,7 @@
 				DEVELOPMENT_TEAM = N5Q5NU635P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VeryTestProgram/Info.plist;
+				INFOPLIST_FILE = VeryTestProgram/Common/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -353,7 +355,7 @@
 				DEVELOPMENT_TEAM = N5Q5NU635P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VeryTestProgram/Info.plist;
+				INFOPLIST_FILE = VeryTestProgram/Common/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
