@@ -11,7 +11,7 @@ import SwiftUI
 struct VeryTestProgramApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ParentView()
         }
     }
 }

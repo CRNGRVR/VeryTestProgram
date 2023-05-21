@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		2C54FCC42A19043700468D02 /* VeryTestProgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */; };
-		2C54FCC62A19043700468D02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC52A19043700468D02 /* ContentView.swift */; };
+		2C54FCC62A19043700468D02 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC52A19043700468D02 /* ParentView.swift */; };
 		2C54FCC82A19043C00468D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C54FCC72A19043C00468D02 /* Assets.xcassets */; };
 		2C54FCCB2A19043C00468D02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C54FCCA2A19043C00468D02 /* Preview Assets.xcassets */; };
+		2C54FCD42A19093600468D02 /* NavVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD32A19093600468D02 /* NavVM.swift */; };
+		2C54FCD62A19094B00468D02 /* TouchFaceIDVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD52A19094B00468D02 /* TouchFaceIDVM.swift */; };
+		2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */; };
+		2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */; };
+		2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C54FCC02A19043700468D02 /* VeryTestProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryTestProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestProgramApp.swift; sourceTree = "<group>"; };
-		2C54FCC52A19043700468D02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C54FCC52A19043700468D02 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		2C54FCC72A19043C00468D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C54FCCA2A19043C00468D02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C54FCD32A19093600468D02 /* NavVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavVM.swift; sourceTree = "<group>"; };
+		2C54FCD52A19094B00468D02 /* TouchFaceIDVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDVM.swift; sourceTree = "<group>"; };
+		2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDView.swift; sourceTree = "<group>"; };
+		2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomFontsView.swift; sourceTree = "<group>"; };
+		2C54FCE52A1A017E00468D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pangolin-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,10 @@
 		2C54FCC22A19043700468D02 /* VeryTestProgram */ = {
 			isa = PBXGroup;
 			children = (
-				2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */,
-				2C54FCC52A19043700468D02 /* ContentView.swift */,
+				2C54FCE52A1A017E00468D02 /* Info.plist */,
+				2C54FCD92A19FDA500468D02 /* TestCustomFonts */,
+				2C54FCD22A1908ED00468D02 /* TouchFaceID */,
+				2C54FCD12A19044D00468D02 /* Common */,
 				2C54FCC72A19043C00468D02 /* Assets.xcassets */,
 				2C54FCC92A19043C00468D02 /* Preview Content */,
 			);
@@ -65,6 +78,42 @@
 				2C54FCCA2A19043C00468D02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C54FCD12A19044D00468D02 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2C54FCDC2A19FE5400468D02 /* Fonts */,
+				2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */,
+				2C54FCC52A19043700468D02 /* ParentView.swift */,
+				2C54FCD32A19093600468D02 /* NavVM.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2C54FCD22A1908ED00468D02 /* TouchFaceID */ = {
+			isa = PBXGroup;
+			children = (
+				2C54FCD52A19094B00468D02 /* TouchFaceIDVM.swift */,
+				2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */,
+			);
+			path = TouchFaceID;
+			sourceTree = "<group>";
+		};
+		2C54FCD92A19FDA500468D02 /* TestCustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */,
+			);
+			path = TestCustomFonts;
+			sourceTree = "<group>";
+		};
+		2C54FCDC2A19FE5400468D02 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */,
 				2C54FCCB2A19043C00468D02 /* Preview Assets.xcassets in Resources */,
 				2C54FCC82A19043C00468D02 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C54FCC62A19043700468D02 /* ContentView.swift in Sources */,
+				2C54FCD62A19094B00468D02 /* TouchFaceIDVM.swift in Sources */,
+				2C54FCD42A19093600468D02 /* NavVM.swift in Sources */,
+				2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */,
+				2C54FCC62A19043700468D02 /* ParentView.swift in Sources */,
+				2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */,
 				2C54FCC42A19043700468D02 /* VeryTestProgramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,6 +324,7 @@
 				DEVELOPMENT_TEAM = N5Q5NU635P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeryTestProgram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +354,7 @@
 				DEVELOPMENT_TEAM = N5Q5NU635P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeryTestProgram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
