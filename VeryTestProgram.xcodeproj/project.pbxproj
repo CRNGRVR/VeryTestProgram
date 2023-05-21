@@ -28,7 +28,6 @@
 		2C54FCD52A19094B00468D02 /* TouchFaceIDVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDVM.swift; sourceTree = "<group>"; };
 		2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDView.swift; sourceTree = "<group>"; };
 		2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomFontsView.swift; sourceTree = "<group>"; };
-		2C54FCE52A1A017E00468D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pangolin-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +61,6 @@
 		2C54FCC22A19043700468D02 /* VeryTestProgram */ = {
 			isa = PBXGroup;
 			children = (
-				2C54FCE52A1A017E00468D02 /* Info.plist */,
 				2C54FCD92A19FDA500468D02 /* TestCustomFonts */,
 				2C54FCD22A1908ED00468D02 /* TouchFaceID */,
 				2C54FCD12A19044D00468D02 /* Common */,
@@ -325,6 +323,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VeryTestProgram/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -355,6 +354,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VeryTestProgram/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
