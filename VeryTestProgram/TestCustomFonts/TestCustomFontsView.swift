@@ -10,9 +10,7 @@ import SwiftUI
 struct TestCustomFontsView: View {
     
     var body: some View {
-        
         VStack{
-            
             Text("Текст текст тектст")
                 .font(Font.custom("Pangolin-Regular", size: 20))
         }

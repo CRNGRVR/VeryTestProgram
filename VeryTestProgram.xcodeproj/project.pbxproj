@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C23EBEA2A1CD1630026F9DE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C23EBE92A1CD1630026F9DE /* WidgetKit.framework */; };
+		2C23EBEC2A1CD1630026F9DE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C23EBEB2A1CD1630026F9DE /* SwiftUI.framework */; };
+		2C23EBEF2A1CD1630026F9DE /* VeryTestWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23EBEE2A1CD1630026F9DE /* VeryTestWidgetBundle.swift */; };
+		2C23EBF12A1CD1630026F9DE /* VeryTestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23EBF02A1CD1630026F9DE /* VeryTestWidget.swift */; };
+		2C23EBF32A1CD1650026F9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C23EBF22A1CD1650026F9DE /* Assets.xcassets */; };
+		2C23EBF72A1CD1650026F9DE /* VeryTestWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C54FCC42A19043700468D02 /* VeryTestProgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */; };
 		2C54FCC62A19043700468D02 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC52A19043700468D02 /* ParentView.swift */; };
 		2C54FCC82A19043C00468D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C54FCC72A19043C00468D02 /* Assets.xcassets */; };
@@ -18,7 +24,38 @@
 		2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2C23EBF52A1CD1650026F9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C54FCB82A19043700468D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C23EBE62A1CD1630026F9DE;
+			remoteInfo = VeryTestWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C23EBF82A1CD1650026F9DE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C23EBF72A1CD1650026F9DE /* VeryTestWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VeryTestWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C23EBE92A1CD1630026F9DE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2C23EBEB2A1CD1630026F9DE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2C23EBEE2A1CD1630026F9DE /* VeryTestWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestWidgetBundle.swift; sourceTree = "<group>"; };
+		2C23EBF02A1CD1630026F9DE /* VeryTestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestWidget.swift; sourceTree = "<group>"; };
+		2C23EBF22A1CD1650026F9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C23EBF42A1CD1650026F9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C54FCC02A19043700468D02 /* VeryTestProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryTestProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestProgramApp.swift; sourceTree = "<group>"; };
 		2C54FCC52A19043700468D02 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
@@ -33,6 +70,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C23EBE42A1CD1630026F9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C23EBEC2A1CD1630026F9DE /* SwiftUI.framework in Frameworks */,
+				2C23EBEA2A1CD1630026F9DE /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C54FCBD2A19043700468D02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,10 +89,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C23EBE82A1CD1630026F9DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C23EBE92A1CD1630026F9DE /* WidgetKit.framework */,
+				2C23EBEB2A1CD1630026F9DE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C23EBED2A1CD1630026F9DE /* VeryTestWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2C23EBEE2A1CD1630026F9DE /* VeryTestWidgetBundle.swift */,
+				2C23EBF02A1CD1630026F9DE /* VeryTestWidget.swift */,
+				2C23EBF22A1CD1650026F9DE /* Assets.xcassets */,
+				2C23EBF42A1CD1650026F9DE /* Info.plist */,
+			);
+			path = VeryTestWidget;
+			sourceTree = "<group>";
+		};
 		2C54FCB72A19043700468D02 = {
 			isa = PBXGroup;
 			children = (
 				2C54FCC22A19043700468D02 /* VeryTestProgram */,
+				2C23EBED2A1CD1630026F9DE /* VeryTestWidget */,
+				2C23EBE82A1CD1630026F9DE /* Frameworks */,
 				2C54FCC12A19043700468D02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				2C54FCC02A19043700468D02 /* VeryTestProgram.app */,
+				2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +188,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2C23EBE62A1CD1630026F9DE /* VeryTestWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C23EBFB2A1CD1650026F9DE /* Build configuration list for PBXNativeTarget "VeryTestWidgetExtension" */;
+			buildPhases = (
+				2C23EBE32A1CD1630026F9DE /* Sources */,
+				2C23EBE42A1CD1630026F9DE /* Frameworks */,
+				2C23EBE52A1CD1630026F9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeryTestWidgetExtension;
+			productName = VeryTestWidgetExtension;
+			productReference = 2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		2C54FCBF2A19043700468D02 /* VeryTestProgram */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C54FCCE2A19043C00468D02 /* Build configuration list for PBXNativeTarget "VeryTestProgram" */;
@@ -126,10 +212,12 @@
 				2C54FCBC2A19043700468D02 /* Sources */,
 				2C54FCBD2A19043700468D02 /* Frameworks */,
 				2C54FCBE2A19043700468D02 /* Resources */,
+				2C23EBF82A1CD1650026F9DE /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2C23EBF62A1CD1650026F9DE /* PBXTargetDependency */,
 			);
 			name = VeryTestProgram;
 			productName = VeryTestProgram;
@@ -146,6 +234,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					2C23EBE62A1CD1630026F9DE = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					2C54FCBF2A19043700468D02 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -165,11 +256,20 @@
 			projectRoot = "";
 			targets = (
 				2C54FCBF2A19043700468D02 /* VeryTestProgram */,
+				2C23EBE62A1CD1630026F9DE /* VeryTestWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C23EBE52A1CD1630026F9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C23EBF32A1CD1650026F9DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C54FCBE2A19043700468D02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +283,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C23EBE32A1CD1630026F9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C23EBEF2A1CD1630026F9DE /* VeryTestWidgetBundle.swift in Sources */,
+				2C23EBF12A1CD1630026F9DE /* VeryTestWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C54FCBC2A19043700468D02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,7 +307,71 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2C23EBF62A1CD1650026F9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C23EBE62A1CD1630026F9DE /* VeryTestWidgetExtension */;
+			targetProxy = 2C23EBF52A1CD1650026F9DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2C23EBF92A1CD1650026F9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5Q5NU635P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeryTestWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VeryTestWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.VeryTestProgram.VeryTestWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C23EBFA2A1CD1650026F9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5Q5NU635P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeryTestWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VeryTestWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.VeryTestProgram.VeryTestWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2C54FCCC2A19043C00468D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -316,6 +489,7 @@
 		2C54FCCF2A19043C00468D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -347,6 +521,7 @@
 		2C54FCD02A19043C00468D02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +553,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C23EBFB2A1CD1650026F9DE /* Build configuration list for PBXNativeTarget "VeryTestWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C23EBF92A1CD1650026F9DE /* Debug */,
+				2C23EBFA2A1CD1650026F9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2C54FCBB2A19043700468D02 /* Build configuration list for PBXProject "VeryTestProgram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

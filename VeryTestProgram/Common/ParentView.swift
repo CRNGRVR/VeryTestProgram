@@ -24,8 +24,6 @@ struct ParentView: View {
         
         TestCustomFontsView()
     }
-    
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
