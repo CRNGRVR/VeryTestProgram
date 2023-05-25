@@ -27,7 +27,6 @@ class WidgetInteractionVM: ObservableObject {
     
     func incrementAndSave() {
         
-        var current = number
         number += 1
         ud?.set(number, forKey: "num")
         

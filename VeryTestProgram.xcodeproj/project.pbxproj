@@ -23,6 +23,9 @@
 		2C54FCD62A19094B00468D02 /* TouchFaceIDVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD52A19094B00468D02 /* TouchFaceIDVM.swift */; };
 		2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */; };
 		2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */; };
+		2CBF68F12A1F719E00BFC82D /* MostVeryTestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F02A1F719E00BFC82D /* MostVeryTestWidget.swift */; };
+		2CBF68F32A1F7E5A00BFC82D /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
+		2CC88B782A1F8DA2006AF585 /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
 		2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +74,8 @@
 		2C54FCD52A19094B00468D02 /* TouchFaceIDVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDVM.swift; sourceTree = "<group>"; };
 		2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDView.swift; sourceTree = "<group>"; };
 		2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomFontsView.swift; sourceTree = "<group>"; };
+		2CBF68F02A1F719E00BFC82D /* MostVeryTestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostVeryTestWidget.swift; sourceTree = "<group>"; };
+		2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MostIntents.intentdefinition; sourceTree = "<group>"; };
 		2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pangolin-Regular.ttf"; sourceTree = "<group>"; };
 		2CFD74982A1A160F00325C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,9 +112,10 @@
 		2C23EBED2A1CD1630026F9DE /* VeryTestWidget */ = {
 			isa = PBXGroup;
 			children = (
+				2CBF68EF2A1F6F9800BFC82D /* SecondWidget */,
+				2CBF68EE2A1F6F8700BFC82D /* FirstWidget */,
 				2C23EBFE2A1F1C220026F9DE /* VeryTestWidgetExtension.entitlements */,
 				2C23EBEE2A1CD1630026F9DE /* VeryTestWidgetBundle.swift */,
-				2C23EBF02A1CD1630026F9DE /* VeryTestWidget.swift */,
 				2C23EBF22A1CD1650026F9DE /* Assets.xcassets */,
 				2C23EBF42A1CD1650026F9DE /* Info.plist */,
 			);
@@ -201,6 +207,23 @@
 				2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2CBF68EE2A1F6F8700BFC82D /* FirstWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2C23EBF02A1CD1630026F9DE /* VeryTestWidget.swift */,
+			);
+			path = FirstWidget;
+			sourceTree = "<group>";
+		};
+		2CBF68EF2A1F6F9800BFC82D /* SecondWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF68F02A1F719E00BFC82D /* MostVeryTestWidget.swift */,
+				2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */,
+			);
+			path = SecondWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +329,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C23EBEF2A1CD1630026F9DE /* VeryTestWidgetBundle.swift in Sources */,
+				2CBF68F32A1F7E5A00BFC82D /* MostIntents.intentdefinition in Sources */,
+				2CBF68F12A1F719E00BFC82D /* MostVeryTestWidget.swift in Sources */,
 				2C23EBF12A1CD1630026F9DE /* VeryTestWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +346,7 @@
 				2C23EC012A1F308A0026F9DE /* WidgetInteractionView.swift in Sources */,
 				2C54FCC62A19043700468D02 /* ParentView.swift in Sources */,
 				2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */,
+				2CC88B782A1F8DA2006AF585 /* MostIntents.intentdefinition in Sources */,
 				2C54FCC42A19043700468D02 /* VeryTestProgramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
