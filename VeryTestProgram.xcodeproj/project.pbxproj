@@ -15,6 +15,7 @@
 		2C23EBF72A1CD1650026F9DE /* VeryTestWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C23EC012A1F308A0026F9DE /* WidgetInteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23EC002A1F308A0026F9DE /* WidgetInteractionView.swift */; };
 		2C23EC032A1F30970026F9DE /* WidgetInteractionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23EC022A1F30970026F9DE /* WidgetInteractionVM.swift */; };
+		2C2E78792A1F9F51001113C9 /* ServerVeryTestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E78772A1F9C42001113C9 /* ServerVeryTestWidget.swift */; };
 		2C54FCC42A19043700468D02 /* VeryTestProgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */; };
 		2C54FCC62A19043700468D02 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC52A19043700468D02 /* ParentView.swift */; };
 		2C54FCC82A19043C00468D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C54FCC72A19043C00468D02 /* Assets.xcassets */; };
@@ -23,9 +24,11 @@
 		2C54FCD62A19094B00468D02 /* TouchFaceIDVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD52A19094B00468D02 /* TouchFaceIDVM.swift */; };
 		2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */; };
 		2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */; };
+		2C9742532A1F9BAE00308101 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2C9742522A1F9BAE00308101 /* Alamofire */; };
 		2CBF68F12A1F719E00BFC82D /* MostVeryTestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F02A1F719E00BFC82D /* MostVeryTestWidget.swift */; };
 		2CBF68F32A1F7E5A00BFC82D /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
 		2CC88B782A1F8DA2006AF585 /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
+		2CC88B7B2A1F9AC4006AF585 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC88B7A2A1F9AC4006AF585 /* Alamofire */; };
 		2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,7 @@
 		2C23EBFE2A1F1C220026F9DE /* VeryTestWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VeryTestWidgetExtension.entitlements; sourceTree = "<group>"; };
 		2C23EC002A1F308A0026F9DE /* WidgetInteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetInteractionView.swift; sourceTree = "<group>"; };
 		2C23EC022A1F30970026F9DE /* WidgetInteractionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetInteractionVM.swift; sourceTree = "<group>"; };
+		2C2E78772A1F9C42001113C9 /* ServerVeryTestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerVeryTestWidget.swift; sourceTree = "<group>"; };
 		2C54FCC02A19043700468D02 /* VeryTestProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryTestProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestProgramApp.swift; sourceTree = "<group>"; };
 		2C54FCC52A19043700468D02 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9742532A1F9BAE00308101 /* Alamofire in Frameworks */,
 				2C23EBEC2A1CD1630026F9DE /* SwiftUI.framework in Frameworks */,
 				2C23EBEA2A1CD1630026F9DE /* WidgetKit.framework in Frameworks */,
 			);
@@ -94,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC88B7B2A1F9AC4006AF585 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +118,7 @@
 		2C23EBED2A1CD1630026F9DE /* VeryTestWidget */ = {
 			isa = PBXGroup;
 			children = (
+				2C2E78762A1F9C1E001113C9 /* ThirdWidget */,
 				2CBF68EF2A1F6F9800BFC82D /* SecondWidget */,
 				2CBF68EE2A1F6F8700BFC82D /* FirstWidget */,
 				2C23EBFE2A1F1C220026F9DE /* VeryTestWidgetExtension.entitlements */,
@@ -129,6 +136,14 @@
 				2C23EC022A1F30970026F9DE /* WidgetInteractionVM.swift */,
 			);
 			path = WidgetInteraction;
+			sourceTree = "<group>";
+		};
+		2C2E78762A1F9C1E001113C9 /* ThirdWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2C2E78772A1F9C42001113C9 /* ServerVeryTestWidget.swift */,
+			);
+			path = ThirdWidget;
 			sourceTree = "<group>";
 		};
 		2C54FCB72A19043700468D02 = {
@@ -242,6 +257,9 @@
 			dependencies = (
 			);
 			name = VeryTestWidgetExtension;
+			packageProductDependencies = (
+				2C9742522A1F9BAE00308101 /* Alamofire */,
+			);
 			productName = VeryTestWidgetExtension;
 			productReference = 2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -261,6 +279,9 @@
 				2C23EBF62A1CD1650026F9DE /* PBXTargetDependency */,
 			);
 			name = VeryTestProgram;
+			packageProductDependencies = (
+				2CC88B7A2A1F9AC4006AF585 /* Alamofire */,
+			);
 			productName = VeryTestProgram;
 			productReference = 2C54FCC02A19043700468D02 /* VeryTestProgram.app */;
 			productType = "com.apple.product-type.application";
@@ -292,6 +313,9 @@
 				Base,
 			);
 			mainGroup = 2C54FCB72A19043700468D02;
+			packageReferences = (
+				2CC88B792A1F9AC4006AF585 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 2C54FCC12A19043700468D02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -329,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C23EBEF2A1CD1630026F9DE /* VeryTestWidgetBundle.swift in Sources */,
+				2C2E78792A1F9F51001113C9 /* ServerVeryTestWidget.swift in Sources */,
 				2CBF68F32A1F7E5A00BFC82D /* MostIntents.intentdefinition in Sources */,
 				2CBF68F12A1F719E00BFC82D /* MostVeryTestWidget.swift in Sources */,
 				2C23EBF12A1CD1630026F9DE /* VeryTestWidget.swift in Sources */,
@@ -631,6 +656,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CC88B792A1F9AC4006AF585 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C9742522A1F9BAE00308101 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CC88B792A1F9AC4006AF585 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2CC88B7A2A1F9AC4006AF585 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CC88B792A1F9AC4006AF585 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C54FCB82A19043700468D02 /* Project object */;
 }

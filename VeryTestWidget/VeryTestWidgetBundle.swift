@@ -14,5 +14,6 @@ struct VeryTestWidgetBundle: WidgetBundle {
     var body: some Widget {
         VeryTestWidget()
         MostVeryTestWidget()
+        ServerWidget()
     }
 }
