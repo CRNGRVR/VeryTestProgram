@@ -107,6 +107,7 @@
 		2C23EBED2A1CD1630026F9DE /* VeryTestWidget */ = {
 			isa = PBXGroup;
 			children = (
+				2C23EBFE2A1F1C220026F9DE /* VeryTestWidgetExtension.entitlements */,
 				2C23EBEE2A1CD1630026F9DE /* VeryTestWidgetBundle.swift */,
 				2C23EBF02A1CD1630026F9DE /* VeryTestWidget.swift */,
 				2C23EBF22A1CD1650026F9DE /* Assets.xcassets */,
@@ -127,7 +128,6 @@
 		2C54FCB72A19043700468D02 = {
 			isa = PBXGroup;
 			children = (
-				2C23EBFE2A1F1C220026F9DE /* VeryTestWidgetExtension.entitlements */,
 				2C54FCC22A19043700468D02 /* VeryTestProgram */,
 				2C23EBED2A1CD1630026F9DE /* VeryTestWidget */,
 				2C23EBE82A1CD1630026F9DE /* Frameworks */,
@@ -147,7 +147,6 @@
 		2C54FCC22A19043700468D02 /* VeryTestProgram */ = {
 			isa = PBXGroup;
 			children = (
-				2C23EBFD2A1E45C70026F9DE /* VeryTestProgram.entitlements */,
 				2C23EBFF2A1F30120026F9DE /* WidgetInteraction */,
 				2C54FCD92A19FDA500468D02 /* TestCustomFonts */,
 				2C54FCD22A1908ED00468D02 /* TouchFaceID */,
@@ -174,6 +173,7 @@
 				2C54FCC52A19043700468D02 /* ParentView.swift */,
 				2C54FCD32A19093600468D02 /* NavVM.swift */,
 				2CFD74982A1A160F00325C9B /* Info.plist */,
+				2C23EBFD2A1E45C70026F9DE /* VeryTestProgram.entitlements */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = VeryTestWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = VeryTestWidget/VeryTestWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5Q5NU635P;
@@ -370,7 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = VeryTestWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = VeryTestWidget/VeryTestWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5Q5NU635P;
@@ -514,7 +514,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = VeryTestProgram/VeryTestProgram.entitlements;
+				CODE_SIGN_ENTITLEMENTS = VeryTestProgram/Common/VeryTestProgram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VeryTestProgram/Preview Content\"";
@@ -547,7 +547,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = VeryTestProgram/VeryTestProgram.entitlements;
+				CODE_SIGN_ENTITLEMENTS = VeryTestProgram/Common/VeryTestProgram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VeryTestProgram/Preview Content\"";
