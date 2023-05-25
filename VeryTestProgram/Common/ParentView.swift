@@ -22,7 +22,8 @@ struct ParentView: View {
 //            }
 //        }
         
-        TestCustomFontsView()
+        //TestCustomFontsView()
+        WidgetInteractionView()
     }
 }
 

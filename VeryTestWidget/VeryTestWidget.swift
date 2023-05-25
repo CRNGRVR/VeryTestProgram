@@ -25,15 +25,21 @@ struct Provider: TimelineProvider {
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         
         let date = Date()
-        let entry = SimpleEntry(date: date, number: Int.random(in: 0...100))
-        
-        //  Добавление к текущему времени пяти минут
-        let nextUpdate = Calendar.current.date(byAdding: .minute, value: 5, to: date)!
-        
-        //  Таймлайн из одного элемента, что сбрасывается каждые 5 минут
-        let timeline = Timeline(entries: [entry], policy: .after(nextUpdate))
-        
-        completion(timeline)
+    
+        if let ud = UserDefaults(suiteName: "group.testGroup.523805") {
+            
+            let currentNum = ud.integer(forKey: "num")
+            
+            let entry = SimpleEntry(date: date, number: currentNum)
+            let timeline = Timeline(entries: [entry], policy: .never)
+            completion(timeline)
+        }
+        else{
+            
+            let entry = SimpleEntry(date: date, number: 0)
+            let timeline = Timeline(entries: [entry], policy: .never)
+            completion(timeline)
+        }
     }
 }
 
