@@ -24,6 +24,7 @@
 		2C54FCD62A19094B00468D02 /* TouchFaceIDVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD52A19094B00468D02 /* TouchFaceIDVM.swift */; };
 		2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */; };
 		2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */; };
+		2C7254752A25B54300FC3DB3 /* VeryTestProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7254742A25B54300FC3DB3 /* VeryTestProgramTests.swift */; };
 		2C9742532A1F9BAE00308101 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2C9742522A1F9BAE00308101 /* Alamofire */; };
 		2CBF68F12A1F719E00BFC82D /* MostVeryTestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F02A1F719E00BFC82D /* MostVeryTestWidget.swift */; };
 		2CBF68F32A1F7E5A00BFC82D /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
@@ -39,6 +40,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2C23EBE62A1CD1630026F9DE;
 			remoteInfo = VeryTestWidgetExtension;
+		};
+		2C7254762A25B54300FC3DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C54FCB82A19043700468D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C54FCBF2A19043700468D02;
+			remoteInfo = VeryTestProgram;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -78,6 +86,8 @@
 		2C54FCD52A19094B00468D02 /* TouchFaceIDVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDVM.swift; sourceTree = "<group>"; };
 		2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDView.swift; sourceTree = "<group>"; };
 		2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomFontsView.swift; sourceTree = "<group>"; };
+		2C7254722A25B54300FC3DB3 /* VeryTestProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeryTestProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7254742A25B54300FC3DB3 /* VeryTestProgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestProgramTests.swift; sourceTree = "<group>"; };
 		2CBF68F02A1F719E00BFC82D /* MostVeryTestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostVeryTestWidget.swift; sourceTree = "<group>"; };
 		2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MostIntents.intentdefinition; sourceTree = "<group>"; };
 		2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pangolin-Regular.ttf"; sourceTree = "<group>"; };
@@ -100,6 +110,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC88B7B2A1F9AC4006AF585 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C72546F2A25B54300FC3DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +168,7 @@
 			children = (
 				2C54FCC22A19043700468D02 /* VeryTestProgram */,
 				2C23EBED2A1CD1630026F9DE /* VeryTestWidget */,
+				2C7254732A25B54300FC3DB3 /* VeryTestProgramTests */,
 				2C23EBE82A1CD1630026F9DE /* Frameworks */,
 				2C54FCC12A19043700468D02 /* Products */,
 			);
@@ -161,6 +179,7 @@
 			children = (
 				2C54FCC02A19043700468D02 /* VeryTestProgram.app */,
 				2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */,
+				2C7254722A25B54300FC3DB3 /* VeryTestProgramTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,6 +241,14 @@
 				2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2C7254732A25B54300FC3DB3 /* VeryTestProgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C7254742A25B54300FC3DB3 /* VeryTestProgramTests.swift */,
+			);
+			path = VeryTestProgramTests;
 			sourceTree = "<group>";
 		};
 		2CBF68EE2A1F6F8700BFC82D /* FirstWidget */ = {
@@ -286,6 +313,24 @@
 			productReference = 2C54FCC02A19043700468D02 /* VeryTestProgram.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2C7254712A25B54300FC3DB3 /* VeryTestProgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C72547A2A25B54300FC3DB3 /* Build configuration list for PBXNativeTarget "VeryTestProgramTests" */;
+			buildPhases = (
+				2C72546E2A25B54300FC3DB3 /* Sources */,
+				2C72546F2A25B54300FC3DB3 /* Frameworks */,
+				2C7254702A25B54300FC3DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C7254772A25B54300FC3DB3 /* PBXTargetDependency */,
+			);
+			name = VeryTestProgramTests;
+			productName = VeryTestProgramTests;
+			productReference = 2C7254722A25B54300FC3DB3 /* VeryTestProgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -301,6 +346,10 @@
 					};
 					2C54FCBF2A19043700468D02 = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					2C7254712A25B54300FC3DB3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2C54FCBF2A19043700468D02;
 					};
 				};
 			};
@@ -322,6 +371,7 @@
 			targets = (
 				2C54FCBF2A19043700468D02 /* VeryTestProgram */,
 				2C23EBE62A1CD1630026F9DE /* VeryTestWidgetExtension */,
+				2C7254712A25B54300FC3DB3 /* VeryTestProgramTests */,
 			);
 		};
 /* End PBXProject section */
@@ -342,6 +392,13 @@
 				2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */,
 				2C54FCCB2A19043C00468D02 /* Preview Assets.xcassets in Resources */,
 				2C54FCC82A19043C00468D02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7254702A25B54300FC3DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +433,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2C72546E2A25B54300FC3DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7254752A25B54300FC3DB3 /* VeryTestProgramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -383,6 +448,11 @@
 			isa = PBXTargetDependency;
 			target = 2C23EBE62A1CD1630026F9DE /* VeryTestWidgetExtension */;
 			targetProxy = 2C23EBF52A1CD1650026F9DE /* PBXContainerItemProxy */;
+		};
+		2C7254772A25B54300FC3DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C54FCBF2A19043700468D02 /* VeryTestProgram */;
+			targetProxy = 2C7254762A25B54300FC3DB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -625,6 +695,44 @@
 			};
 			name = Release;
 		};
+		2C7254782A25B54300FC3DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5Q5NU635P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.VeryTestProgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeryTestProgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VeryTestProgram";
+			};
+			name = Debug;
+		};
+		2C7254792A25B54300FC3DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5Q5NU635P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.VeryTestProgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeryTestProgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VeryTestProgram";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -651,6 +759,15 @@
 			buildConfigurations = (
 				2C54FCCF2A19043C00468D02 /* Debug */,
 				2C54FCD02A19043C00468D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C72547A2A25B54300FC3DB3 /* Build configuration list for PBXNativeTarget "VeryTestProgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7254782A25B54300FC3DB3 /* Debug */,
+				2C7254792A25B54300FC3DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
