@@ -20,6 +20,12 @@ struct CameraView: View {
                         .clipShape(Circle())
                 })
                 .frame(width: 50, height: 50)
+                
+                if cameraVM.photoData != nil {
+                    Image(uiImage: UIImage(data: cameraVM.photoData!)!)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                }
             }
         }
     }

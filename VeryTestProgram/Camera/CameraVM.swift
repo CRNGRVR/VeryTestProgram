@@ -8,12 +8,15 @@
 import Foundation
 import AVKit
 
-class CameraVM: ObservableObject {
+class CameraVM: ObservableObject, PhotoInteraction {
     
     @Published var session: AVCaptureSession = .init()
     
+    var output = AVCapturePhotoOutput()
+    var photoDelegate = PhotoDelegate()
+    @Published var photoData: Data?
+    
     init() {
-        
         permissionRequestIfNotAuthorized()
         setUp()
     }
@@ -38,19 +41,23 @@ class CameraVM: ObservableObject {
             
             session.beginConfiguration()
             session.addInput(input)
+            session.addOutput(output)
             session.commitConfiguration()
+            photoDelegate.cameraVm = self
             
             session.startRunning()
         }
-        catch{
-            print("Хана")
-        }
+        catch{}
     }
     
     
     func takePhoto() {
         
-        var photoSettings = AVCapturePhotoSettings()
-        
+        let photoSettings = AVCapturePhotoSettings()
+        output.capturePhoto(with: photoSettings, delegate: photoDelegate)
+    }
+    
+    func setPhoto(photo: Data) {
+        photoData = photo
     }
 }

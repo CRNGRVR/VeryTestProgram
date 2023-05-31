@@ -19,6 +19,7 @@
 		2C47C8FB2A26EB2E00788847 /* CameraVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47C8FA2A26EB2E00788847 /* CameraVM.swift */; };
 		2C47C8FD2A26EB4700788847 /* CameraFromUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47C8FC2A26EB4700788847 /* CameraFromUIKit.swift */; };
 		2C47C8FF2A26EB5300788847 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47C8FE2A26EB5300788847 /* CameraView.swift */; };
+		2C47C9012A270F0C00788847 /* PhotoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47C9002A270F0C00788847 /* PhotoDelegate.swift */; };
 		2C54FCC42A19043700468D02 /* VeryTestProgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */; };
 		2C54FCC62A19043700468D02 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC52A19043700468D02 /* ParentView.swift */; };
 		2C54FCC82A19043C00468D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C54FCC72A19043C00468D02 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		2CBF68F32A1F7E5A00BFC82D /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
 		2CC88B782A1F8DA2006AF585 /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
 		2CC88B7B2A1F9AC4006AF585 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC88B7A2A1F9AC4006AF585 /* Alamofire */; };
+		2CD90C332A2716D100907588 /* PhotoInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD90C322A2716D100907588 /* PhotoInteraction.swift */; };
 		2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +90,7 @@
 		2C47C8FA2A26EB2E00788847 /* CameraVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVM.swift; sourceTree = "<group>"; };
 		2C47C8FC2A26EB4700788847 /* CameraFromUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFromUIKit.swift; sourceTree = "<group>"; };
 		2C47C8FE2A26EB5300788847 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		2C47C9002A270F0C00788847 /* PhotoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDelegate.swift; sourceTree = "<group>"; };
 		2C54FCC02A19043700468D02 /* VeryTestProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryTestProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestProgramApp.swift; sourceTree = "<group>"; };
 		2C54FCC52A19043700468D02 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
@@ -106,6 +109,7 @@
 		2CBE62F52A25E19100D82216 /* Charts-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Charts-master"; path = "../../../../Downloads/Charts-master"; sourceTree = "<group>"; };
 		2CBF68F02A1F719E00BFC82D /* MostVeryTestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostVeryTestWidget.swift; sourceTree = "<group>"; };
 		2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MostIntents.intentdefinition; sourceTree = "<group>"; };
+		2CD90C322A2716D100907588 /* PhotoInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInteraction.swift; sourceTree = "<group>"; };
 		2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pangolin-Regular.ttf"; sourceTree = "<group>"; };
 		2CFD74982A1A160F00325C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,6 +190,8 @@
 				2C47C8FA2A26EB2E00788847 /* CameraVM.swift */,
 				2C47C8FC2A26EB4700788847 /* CameraFromUIKit.swift */,
 				2C47C8FE2A26EB5300788847 /* CameraView.swift */,
+				2C47C9002A270F0C00788847 /* PhotoDelegate.swift */,
+				2CD90C322A2716D100907588 /* PhotoInteraction.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -466,12 +472,14 @@
 				2C54FCD62A19094B00468D02 /* TouchFaceIDVM.swift in Sources */,
 				2C47C8FB2A26EB2E00788847 /* CameraVM.swift in Sources */,
 				2C72547D2A25CACE00FC3DB3 /* ChartsVM.swift in Sources */,
+				2CD90C332A2716D100907588 /* PhotoInteraction.swift in Sources */,
 				2C54FCD42A19093600468D02 /* NavVM.swift in Sources */,
 				2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */,
 				2C23EC032A1F30970026F9DE /* WidgetInteractionVM.swift in Sources */,
 				2CBE62F12A25D6EB00D82216 /* ChartsData.swift in Sources */,
 				2C23EC012A1F308A0026F9DE /* WidgetInteractionView.swift in Sources */,
 				2C54FCC62A19043700468D02 /* ParentView.swift in Sources */,
+				2C47C9012A270F0C00788847 /* PhotoDelegate.swift in Sources */,
 				2CBE62EF2A25D34900D82216 /* ChartFromUIKit.swift in Sources */,
 				2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */,
 				2CC88B782A1F8DA2006AF585 /* MostIntents.intentdefinition in Sources */,
