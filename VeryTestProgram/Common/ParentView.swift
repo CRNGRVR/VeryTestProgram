@@ -23,7 +23,8 @@ struct ParentView: View {
 //        }
         
         //TestCustomFontsView()
-        WidgetInteractionView()
+        //WidgetInteractionView()
+        CameraView()
     }
 }
 

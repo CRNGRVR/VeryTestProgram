@@ -16,6 +16,9 @@
 		2C23EC012A1F308A0026F9DE /* WidgetInteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23EC002A1F308A0026F9DE /* WidgetInteractionView.swift */; };
 		2C23EC032A1F30970026F9DE /* WidgetInteractionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23EC022A1F30970026F9DE /* WidgetInteractionVM.swift */; };
 		2C2E78792A1F9F51001113C9 /* ServerVeryTestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E78772A1F9C42001113C9 /* ServerVeryTestWidget.swift */; };
+		2C47C8FB2A26EB2E00788847 /* CameraVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47C8FA2A26EB2E00788847 /* CameraVM.swift */; };
+		2C47C8FD2A26EB4700788847 /* CameraFromUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47C8FC2A26EB4700788847 /* CameraFromUIKit.swift */; };
+		2C47C8FF2A26EB5300788847 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47C8FE2A26EB5300788847 /* CameraView.swift */; };
 		2C54FCC42A19043700468D02 /* VeryTestProgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */; };
 		2C54FCC62A19043700468D02 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCC52A19043700468D02 /* ParentView.swift */; };
 		2C54FCC82A19043C00468D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C54FCC72A19043C00468D02 /* Assets.xcassets */; };
@@ -82,6 +85,9 @@
 		2C23EC002A1F308A0026F9DE /* WidgetInteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetInteractionView.swift; sourceTree = "<group>"; };
 		2C23EC022A1F30970026F9DE /* WidgetInteractionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetInteractionVM.swift; sourceTree = "<group>"; };
 		2C2E78772A1F9C42001113C9 /* ServerVeryTestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerVeryTestWidget.swift; sourceTree = "<group>"; };
+		2C47C8FA2A26EB2E00788847 /* CameraVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVM.swift; sourceTree = "<group>"; };
+		2C47C8FC2A26EB4700788847 /* CameraFromUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFromUIKit.swift; sourceTree = "<group>"; };
+		2C47C8FE2A26EB5300788847 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		2C54FCC02A19043700468D02 /* VeryTestProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryTestProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C54FCC32A19043700468D02 /* VeryTestProgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestProgramApp.swift; sourceTree = "<group>"; };
 		2C54FCC52A19043700468D02 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
@@ -174,6 +180,16 @@
 			path = ThirdWidget;
 			sourceTree = "<group>";
 		};
+		2C47C8F92A26EB1C00788847 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				2C47C8FA2A26EB2E00788847 /* CameraVM.swift */,
+				2C47C8FC2A26EB4700788847 /* CameraFromUIKit.swift */,
+				2C47C8FE2A26EB5300788847 /* CameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		2C54FCB72A19043700468D02 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +214,7 @@
 		2C54FCC22A19043700468D02 /* VeryTestProgram */ = {
 			isa = PBXGroup;
 			children = (
+				2C47C8F92A26EB1C00788847 /* Camera */,
 				2CBE62F52A25E19100D82216 /* Charts-master */,
 				2C72547B2A25CAB500FC3DB3 /*  Charts */,
 				2C23EBFF2A1F30120026F9DE /* WidgetInteraction */,
@@ -447,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C54FCD62A19094B00468D02 /* TouchFaceIDVM.swift in Sources */,
+				2C47C8FB2A26EB2E00788847 /* CameraVM.swift in Sources */,
 				2C72547D2A25CACE00FC3DB3 /* ChartsVM.swift in Sources */,
 				2C54FCD42A19093600468D02 /* NavVM.swift in Sources */,
 				2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */,
@@ -458,7 +476,9 @@
 				2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */,
 				2CC88B782A1F8DA2006AF585 /* MostIntents.intentdefinition in Sources */,
 				2C54FCC42A19043700468D02 /* VeryTestProgramApp.swift in Sources */,
+				2C47C8FD2A26EB4700788847 /* CameraFromUIKit.swift in Sources */,
 				2C72547F2A25CADB00FC3DB3 /* ChartsView.swift in Sources */,
+				2C47C8FF2A26EB5300788847 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +693,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VeryTestProgram/Common/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Тут надо что-то написать, А то будет SIGABRT";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -706,6 +727,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VeryTestProgram/Common/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Тут надо что-то написать, А то будет SIGABRT";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
