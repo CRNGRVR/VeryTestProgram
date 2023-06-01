@@ -19,7 +19,6 @@ struct FoodView4: View {
 
                     Spacer()
                 }
-
                 
                 
                 VStack {
@@ -148,8 +147,10 @@ struct tf_stroke: View {
                     .padding(.leading, 17)
                     .padding(.trailing, 17)
                 
-                TextField("example@gmail.com", text: $txt)
-                    .font(Font.custom("OpenSans-Regular", size: 12))
+                ZStack(alignment: .leading){
+                    TextField("example@gmail.com", text: $txt)
+                        .font(Font.custom("OpenSans-Regular", size: 12))
+                }
             }
         }
         .frame(maxWidth: .infinity, minHeight: 45, maxHeight: 45)
