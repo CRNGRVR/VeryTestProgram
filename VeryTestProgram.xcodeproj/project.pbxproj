@@ -37,9 +37,14 @@
 		2CBE62F72A25E1D900D82216 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 2CBE62F62A25E1D900D82216 /* Charts */; };
 		2CBF68F12A1F719E00BFC82D /* MostVeryTestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F02A1F719E00BFC82D /* MostVeryTestWidget.swift */; };
 		2CBF68F32A1F7E5A00BFC82D /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
+		2CC21D1E2A273B7400D05676 /* FoodView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC21D1D2A273B7400D05676 /* FoodView4.swift */; };
+		2CC21D232A273C8100D05676 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CC21D202A273C8000D05676 /* OpenSans-Regular.ttf */; };
+		2CC21D242A273C8100D05676 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CC21D212A273C8000D05676 /* OpenSans-SemiBold.ttf */; };
+		2CC21D252A273C8100D05676 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CC21D222A273C8000D05676 /* OpenSans-Bold.ttf */; };
 		2CC88B782A1F8DA2006AF585 /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
 		2CC88B7B2A1F9AC4006AF585 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC88B7A2A1F9AC4006AF585 /* Alamofire */; };
 		2CD90C332A2716D100907588 /* PhotoInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD90C322A2716D100907588 /* PhotoInteraction.swift */; };
+		2CE2C6B62A285BB40039090C /* PaddingRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2C6B52A285BB40039090C /* PaddingRelation.swift */; };
 		2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -109,7 +114,12 @@
 		2CBE62F52A25E19100D82216 /* Charts-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Charts-master"; path = "../../../../Downloads/Charts-master"; sourceTree = "<group>"; };
 		2CBF68F02A1F719E00BFC82D /* MostVeryTestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostVeryTestWidget.swift; sourceTree = "<group>"; };
 		2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MostIntents.intentdefinition; sourceTree = "<group>"; };
+		2CC21D1D2A273B7400D05676 /* FoodView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView4.swift; sourceTree = "<group>"; };
+		2CC21D202A273C8000D05676 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2CC21D212A273C8000D05676 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		2CC21D222A273C8000D05676 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		2CD90C322A2716D100907588 /* PhotoInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInteraction.swift; sourceTree = "<group>"; };
+		2CE2C6B52A285BB40039090C /* PaddingRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingRelation.swift; sourceTree = "<group>"; };
 		2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pangolin-Regular.ttf"; sourceTree = "<group>"; };
 		2CFD74982A1A160F00325C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -220,6 +230,7 @@
 		2C54FCC22A19043700468D02 /* VeryTestProgram */ = {
 			isa = PBXGroup;
 			children = (
+				2CD2A2F82A273232008A173E /* DesignedScreens */,
 				2C47C8F92A26EB1C00788847 /* Camera */,
 				2CBE62F52A25E19100D82216 /* Charts-master */,
 				2C72547B2A25CAB500FC3DB3 /*  Charts */,
@@ -274,6 +285,7 @@
 		2C54FCDC2A19FE5400468D02 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				2CC21D1F2A273C2000D05676 /* Food */,
 				2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */,
 			);
 			path = Fonts;
@@ -313,6 +325,25 @@
 				2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */,
 			);
 			path = SecondWidget;
+			sourceTree = "<group>";
+		};
+		2CC21D1F2A273C2000D05676 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				2CC21D222A273C8000D05676 /* OpenSans-Bold.ttf */,
+				2CC21D202A273C8000D05676 /* OpenSans-Regular.ttf */,
+				2CC21D212A273C8000D05676 /* OpenSans-SemiBold.ttf */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		2CD2A2F82A273232008A173E /* DesignedScreens */ = {
+			isa = PBXGroup;
+			children = (
+				2CC21D1D2A273B7400D05676 /* FoodView4.swift */,
+				2CE2C6B52A285BB40039090C /* PaddingRelation.swift */,
+			);
+			path = DesignedScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,6 +470,9 @@
 			files = (
 				2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */,
 				2C54FCCB2A19043C00468D02 /* Preview Assets.xcassets in Resources */,
+				2CC21D252A273C8100D05676 /* OpenSans-Bold.ttf in Resources */,
+				2CC21D242A273C8100D05676 /* OpenSans-SemiBold.ttf in Resources */,
+				2CC21D232A273C8100D05676 /* OpenSans-Regular.ttf in Resources */,
 				2C54FCC82A19043C00468D02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC21D1E2A273B7400D05676 /* FoodView4.swift in Sources */,
 				2C54FCD62A19094B00468D02 /* TouchFaceIDVM.swift in Sources */,
 				2C47C8FB2A26EB2E00788847 /* CameraVM.swift in Sources */,
 				2C72547D2A25CACE00FC3DB3 /* ChartsVM.swift in Sources */,
@@ -481,6 +516,7 @@
 				2C54FCC62A19043700468D02 /* ParentView.swift in Sources */,
 				2C47C9012A270F0C00788847 /* PhotoDelegate.swift in Sources */,
 				2CBE62EF2A25D34900D82216 /* ChartFromUIKit.swift in Sources */,
+				2CE2C6B62A285BB40039090C /* PaddingRelation.swift in Sources */,
 				2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */,
 				2CC88B782A1F8DA2006AF585 /* MostIntents.intentdefinition in Sources */,
 				2C54FCC42A19043700468D02 /* VeryTestProgramApp.swift in Sources */,
@@ -706,7 +742,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -740,7 +776,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
