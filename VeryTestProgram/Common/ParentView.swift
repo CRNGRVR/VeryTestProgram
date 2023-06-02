@@ -24,7 +24,8 @@ struct ParentView: View {
         
         //TestCustomFontsView()
         //WidgetInteractionView()
-        CameraView()
+        //CameraView()
+        Podcasts()
     }
 }
 

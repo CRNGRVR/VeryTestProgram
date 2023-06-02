@@ -48,6 +48,11 @@
 		2CE2C6B62A285BB40039090C /* PaddingRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2C6B52A285BB40039090C /* PaddingRelation.swift */; };
 		2CF3A9432A2990690020487B /* Sport-16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3A9422A2990690020487B /* Sport-16.swift */; };
 		2CF3A9462A299A840020487B /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3A9452A299A840020487B /* BebasNeue-Regular.ttf */; };
+		2CF3A9492A29B8970020487B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3A9482A29B8970020487B /* Poppins-Bold.ttf */; };
+		2CF3A94D2A29B8D10020487B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3A94A2A29B8D10020487B /* Inter-Regular.ttf */; };
+		2CF3A94E2A29B8D10020487B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3A94B2A29B8D10020487B /* Inter-SemiBold.ttf */; };
+		2CF3A94F2A29B8D10020487B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3A94C2A29B8D10020487B /* Inter-Bold.ttf */; };
+		2CF3A9532A29BAB30020487B /* Podcasts-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3A9522A29BAB30020487B /* Podcasts-2.swift */; };
 		2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -126,6 +131,12 @@
 		2CE2C6B52A285BB40039090C /* PaddingRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingRelation.swift; sourceTree = "<group>"; };
 		2CF3A9422A2990690020487B /* Sport-16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sport-16.swift"; sourceTree = "<group>"; };
 		2CF3A9452A299A840020487B /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		2CF3A9482A29B8970020487B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		2CF3A94A2A29B8D10020487B /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		2CF3A94B2A29B8D10020487B /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		2CF3A94C2A29B8D10020487B /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		2CF3A9502A29B8E50020487B /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		2CF3A9522A29BAB30020487B /* Podcasts-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Podcasts-2.swift"; sourceTree = "<group>"; };
 		2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pangolin-Regular.ttf"; sourceTree = "<group>"; };
 		2CFD74982A1A160F00325C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -291,6 +302,7 @@
 		2C54FCDC2A19FE5400468D02 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				2CF3A9472A29B8700020487B /* Podcasts */,
 				2CF3A9442A299A6E0020487B /* Sport */,
 				2CC21D1F2A273C2000D05676 /* Food */,
 				2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */,
@@ -356,6 +368,7 @@
 		2CD2A2F82A273232008A173E /* DesignedScreens */ = {
 			isa = PBXGroup;
 			children = (
+				2CF3A9512A29BAA00020487B /* Podcasts */,
 				2CF3A9412A29900D0020487B /* Sportify */,
 				2CB816452A2877DC00837374 /* Food */,
 				2CE2C6B52A285BB40039090C /* PaddingRelation.swift */,
@@ -377,6 +390,26 @@
 				2CF3A9452A299A840020487B /* BebasNeue-Regular.ttf */,
 			);
 			path = Sport;
+			sourceTree = "<group>";
+		};
+		2CF3A9472A29B8700020487B /* Podcasts */ = {
+			isa = PBXGroup;
+			children = (
+				2CF3A9502A29B8E50020487B /* Inter-Medium.ttf */,
+				2CF3A94C2A29B8D10020487B /* Inter-Bold.ttf */,
+				2CF3A94A2A29B8D10020487B /* Inter-Regular.ttf */,
+				2CF3A94B2A29B8D10020487B /* Inter-SemiBold.ttf */,
+				2CF3A9482A29B8970020487B /* Poppins-Bold.ttf */,
+			);
+			path = Podcasts;
+			sourceTree = "<group>";
+		};
+		2CF3A9512A29BAA00020487B /* Podcasts */ = {
+			isa = PBXGroup;
+			children = (
+				2CF3A9522A29BAB30020487B /* Podcasts-2.swift */,
+			);
+			path = Podcasts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,11 +535,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFD74962A1A0F2300325C9B /* Pangolin-Regular.ttf in Resources */,
+				2CF3A94D2A29B8D10020487B /* Inter-Regular.ttf in Resources */,
+				2CF3A94F2A29B8D10020487B /* Inter-Bold.ttf in Resources */,
 				2C54FCCB2A19043C00468D02 /* Preview Assets.xcassets in Resources */,
 				2CF3A9462A299A840020487B /* BebasNeue-Regular.ttf in Resources */,
+				2CF3A9492A29B8970020487B /* Poppins-Bold.ttf in Resources */,
 				2CC21D252A273C8100D05676 /* OpenSans-Bold.ttf in Resources */,
 				2CC21D242A273C8100D05676 /* OpenSans-SemiBold.ttf in Resources */,
 				2CC21D232A273C8100D05676 /* OpenSans-Regular.ttf in Resources */,
+				2CF3A94E2A29B8D10020487B /* Inter-SemiBold.ttf in Resources */,
 				2C54FCC82A19043C00468D02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC21D1E2A273B7400D05676 /* FoodView4.swift in Sources */,
+				2CF3A9532A29BAB30020487B /* Podcasts-2.swift in Sources */,
 				2C54FCD62A19094B00468D02 /* TouchFaceIDVM.swift in Sources */,
 				2C47C8FB2A26EB2E00788847 /* CameraVM.swift in Sources */,
 				2C72547D2A25CACE00FC3DB3 /* ChartsVM.swift in Sources */,
