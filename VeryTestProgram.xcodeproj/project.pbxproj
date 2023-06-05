@@ -38,6 +38,8 @@
 		2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */; };
 		2C54FCDB2A19FE4100468D02 /* TestCustomFontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */; };
 		2C64941E2A2DA5D8003CD029 /* SmartHome-4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64941D2A2DA5D8003CD029 /* SmartHome-4.swift */; };
+		2C6494212A2DB089003CD029 /* Bank-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6494202A2DB089003CD029 /* Bank-2.swift */; };
+		2C6494232A2DB209003CD029 /* Relative2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6494222A2DB209003CD029 /* Relative2.swift */; };
 		2C7254752A25B54300FC3DB3 /* VeryTestProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7254742A25B54300FC3DB3 /* VeryTestProgramTests.swift */; };
 		2C72547D2A25CACE00FC3DB3 /* ChartsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72547C2A25CACE00FC3DB3 /* ChartsVM.swift */; };
 		2C72547F2A25CADB00FC3DB3 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72547E2A25CADB00FC3DB3 /* ChartsView.swift */; };
@@ -153,6 +155,8 @@
 		2C54FCD72A19095D00468D02 /* TouchFaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceIDView.swift; sourceTree = "<group>"; };
 		2C54FCDA2A19FE4100468D02 /* TestCustomFontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomFontsView.swift; sourceTree = "<group>"; };
 		2C64941D2A2DA5D8003CD029 /* SmartHome-4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartHome-4.swift"; sourceTree = "<group>"; };
+		2C6494202A2DB089003CD029 /* Bank-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bank-2.swift"; sourceTree = "<group>"; };
+		2C6494222A2DB209003CD029 /* Relative2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relative2.swift; sourceTree = "<group>"; };
 		2C7254722A25B54300FC3DB3 /* VeryTestProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeryTestProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7254742A25B54300FC3DB3 /* VeryTestProgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestProgramTests.swift; sourceTree = "<group>"; };
 		2C72547C2A25CACE00FC3DB3 /* ChartsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsVM.swift; sourceTree = "<group>"; };
@@ -300,8 +304,10 @@
 		2C29138A2A2D9075009FCC0C /* Adaptive-watch */ = {
 			isa = PBXGroup;
 			children = (
+				2C64941F2A2DB06F003CD029 /* Bank */,
 				2C2913812A2D8E40009FCC0C /* SmartHome */,
 				2C29138C2A2D90C5009FCC0C /* Relative.swift */,
+				2C6494222A2DB209003CD029 /* Relative2.swift */,
 			);
 			path = "Adaptive-watch";
 			sourceTree = "<group>";
@@ -425,6 +431,14 @@
 				2CFD74952A1A0F2300325C9B /* Pangolin-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2C64941F2A2DB06F003CD029 /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				2C6494202A2DB089003CD029 /* Bank-2.swift */,
+			);
+			path = Bank;
 			sourceTree = "<group>";
 		};
 		2C7254732A25B54300FC3DB3 /* VeryTestProgramTests */ = {
@@ -753,6 +767,8 @@
 				2C2913832A2D8E53009FCC0C /* SmartHome-1.swift in Sources */,
 				2C2913732A2D8D9C009FCC0C /* ContentView.swift in Sources */,
 				2C2913712A2D8D9C009FCC0C /* VeryTestProgrammWatchApp.swift in Sources */,
+				2C6494212A2DB089003CD029 /* Bank-2.swift in Sources */,
+				2C6494232A2DB209003CD029 /* Relative2.swift in Sources */,
 				2C29138D2A2D90C5009FCC0C /* Relative.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
