@@ -15,6 +15,15 @@
 		2C23EBF72A1CD1650026F9DE /* VeryTestWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C23EC012A1F308A0026F9DE /* WidgetInteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23EC002A1F308A0026F9DE /* WidgetInteractionView.swift */; };
 		2C23EC032A1F30970026F9DE /* WidgetInteractionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23EC022A1F30970026F9DE /* WidgetInteractionVM.swift */; };
+		2C29136C2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2C29136B2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C2913712A2D8D9C009FCC0C /* VeryTestProgrammWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2913702A2D8D9C009FCC0C /* VeryTestProgrammWatchApp.swift */; };
+		2C2913732A2D8D9C009FCC0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2913722A2D8D9C009FCC0C /* ContentView.swift */; };
+		2C2913752A2D8D9E009FCC0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2913742A2D8D9E009FCC0C /* Assets.xcassets */; };
+		2C2913782A2D8D9E009FCC0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2913772A2D8D9E009FCC0C /* Preview Assets.xcassets */; };
+		2C2913832A2D8E53009FCC0C /* SmartHome-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2913822A2D8E53009FCC0C /* SmartHome-1.swift */; };
+		2C2913862A2D8EAB009FCC0C /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C2913842A2D8EAA009FCC0C /* Inter-Medium.ttf */; };
+		2C2913872A2D8EAB009FCC0C /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C2913852A2D8EAB009FCC0C /* Inter-Regular.ttf */; };
+		2C29138D2A2D90C5009FCC0C /* Relative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C29138C2A2D90C5009FCC0C /* Relative.swift */; };
 		2C2E78792A1F9F51001113C9 /* ServerVeryTestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E78772A1F9C42001113C9 /* ServerVeryTestWidget.swift */; };
 		2C47C8FB2A26EB2E00788847 /* CameraVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47C8FA2A26EB2E00788847 /* CameraVM.swift */; };
 		2C47C8FD2A26EB4700788847 /* CameraFromUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47C8FC2A26EB4700788847 /* CameraFromUIKit.swift */; };
@@ -64,6 +73,13 @@
 			remoteGlobalIDString = 2C23EBE62A1CD1630026F9DE;
 			remoteInfo = VeryTestWidgetExtension;
 		};
+		2C29136D2A2D8D9C009FCC0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C54FCB82A19043700468D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C29136A2A2D8D9C009FCC0C;
+			remoteInfo = "VeryTestProgrammWatch Watch App";
+		};
 		2C7254762A25B54300FC3DB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C54FCB82A19043700468D02 /* Project object */;
@@ -85,6 +101,17 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2C29137C2A2D8D9E009FCC0C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2C29136C2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +126,17 @@
 		2C23EBFE2A1F1C220026F9DE /* VeryTestWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VeryTestWidgetExtension.entitlements; sourceTree = "<group>"; };
 		2C23EC002A1F308A0026F9DE /* WidgetInteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetInteractionView.swift; sourceTree = "<group>"; };
 		2C23EC022A1F30970026F9DE /* WidgetInteractionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetInteractionVM.swift; sourceTree = "<group>"; };
+		2C2913662A2D8D9C009FCC0C /* VeryTestProgrammWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryTestProgrammWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C29136B2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VeryTestProgrammWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2913702A2D8D9C009FCC0C /* VeryTestProgrammWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestProgrammWatchApp.swift; sourceTree = "<group>"; };
+		2C2913722A2D8D9C009FCC0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C2913742A2D8D9E009FCC0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C2913772A2D8D9E009FCC0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C2913822A2D8E53009FCC0C /* SmartHome-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartHome-1.swift"; sourceTree = "<group>"; };
+		2C2913842A2D8EAA009FCC0C /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		2C2913852A2D8EAB009FCC0C /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		2C2913882A2D8EBD009FCC0C /* VeryTestProgrammWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VeryTestProgrammWatch-Watch-App-Info.plist"; path = "VeryTestProgrammWatch Watch App/Common/VeryTestProgrammWatch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2C29138C2A2D90C5009FCC0C /* Relative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relative.swift; sourceTree = "<group>"; };
 		2C2E78772A1F9C42001113C9 /* ServerVeryTestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerVeryTestWidget.swift; sourceTree = "<group>"; };
 		2C47C8FA2A26EB2E00788847 /* CameraVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVM.swift; sourceTree = "<group>"; };
 		2C47C8FC2A26EB4700788847 /* CameraFromUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFromUIKit.swift; sourceTree = "<group>"; };
@@ -149,6 +187,13 @@
 				2C9742532A1F9BAE00308101 /* Alamofire in Frameworks */,
 				2C23EBEC2A1CD1630026F9DE /* SwiftUI.framework in Frameworks */,
 				2C23EBEA2A1CD1630026F9DE /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2913682A2D8D9C009FCC0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +248,72 @@
 			path = WidgetInteraction;
 			sourceTree = "<group>";
 		};
+		2C29135F2A2D8C03009FCC0C /* Mobile-adaptive */ = {
+			isa = PBXGroup;
+			children = (
+				2CF3A9512A29BAA00020487B /* Podcasts */,
+				2CF3A9412A29900D0020487B /* Sportify */,
+				2CB816452A2877DC00837374 /* Food */,
+			);
+			path = "Mobile-adaptive";
+			sourceTree = "<group>";
+		};
+		2C29136F2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2C29138B2A2D9084009FCC0C /* Common */,
+				2C29138A2A2D9075009FCC0C /* Adaptive-watch */,
+				2C2913742A2D8D9E009FCC0C /* Assets.xcassets */,
+				2C2913762A2D8D9E009FCC0C /* Preview Content */,
+			);
+			path = "VeryTestProgrammWatch Watch App";
+			sourceTree = "<group>";
+		};
+		2C2913762A2D8D9E009FCC0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C2913772A2D8D9E009FCC0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C2913802A2D8E3A009FCC0C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C2913842A2D8EAA009FCC0C /* Inter-Medium.ttf */,
+				2C2913852A2D8EAB009FCC0C /* Inter-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2C2913812A2D8E40009FCC0C /* SmartHome */ = {
+			isa = PBXGroup;
+			children = (
+				2C2913822A2D8E53009FCC0C /* SmartHome-1.swift */,
+			);
+			path = SmartHome;
+			sourceTree = "<group>";
+		};
+		2C29138A2A2D9075009FCC0C /* Adaptive-watch */ = {
+			isa = PBXGroup;
+			children = (
+				2C2913812A2D8E40009FCC0C /* SmartHome */,
+				2C29138C2A2D90C5009FCC0C /* Relative.swift */,
+			);
+			path = "Adaptive-watch";
+			sourceTree = "<group>";
+		};
+		2C29138B2A2D9084009FCC0C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2C2913882A2D8EBD009FCC0C /* VeryTestProgrammWatch-Watch-App-Info.plist */,
+				2C2913722A2D8D9C009FCC0C /* ContentView.swift */,
+				2C2913702A2D8D9C009FCC0C /* VeryTestProgrammWatchApp.swift */,
+				2C2913802A2D8E3A009FCC0C /* Fonts */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		2C2E78762A1F9C1E001113C9 /* ThirdWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +340,7 @@
 				2C54FCC22A19043700468D02 /* VeryTestProgram */,
 				2C23EBED2A1CD1630026F9DE /* VeryTestWidget */,
 				2C7254732A25B54300FC3DB3 /* VeryTestProgramTests */,
+				2C29136F2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App */,
 				2C23EBE82A1CD1630026F9DE /* Frameworks */,
 				2C54FCC12A19043700468D02 /* Products */,
 			);
@@ -240,6 +352,8 @@
 				2C54FCC02A19043700468D02 /* VeryTestProgram.app */,
 				2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */,
 				2C7254722A25B54300FC3DB3 /* VeryTestProgramTests.xctest */,
+				2C2913662A2D8D9C009FCC0C /* VeryTestProgrammWatch.app */,
+				2C29136B2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,9 +482,7 @@
 		2CD2A2F82A273232008A173E /* DesignedScreens */ = {
 			isa = PBXGroup;
 			children = (
-				2CF3A9512A29BAA00020487B /* Podcasts */,
-				2CF3A9412A29900D0020487B /* Sportify */,
-				2CB816452A2877DC00837374 /* Food */,
+				2C29135F2A2D8C03009FCC0C /* Mobile-adaptive */,
 				2CE2C6B52A285BB40039090C /* PaddingRelation.swift */,
 			);
 			path = DesignedScreens;
@@ -435,6 +547,40 @@
 			productReference = 2C23EBE72A1CD1630026F9DE /* VeryTestWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		2C2913652A2D8D9C009FCC0C /* VeryTestProgrammWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C29137D2A2D8D9E009FCC0C /* Build configuration list for PBXNativeTarget "VeryTestProgrammWatch" */;
+			buildPhases = (
+				2C2913642A2D8D9C009FCC0C /* Resources */,
+				2C29137C2A2D8D9E009FCC0C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C29136E2A2D8D9C009FCC0C /* PBXTargetDependency */,
+			);
+			name = VeryTestProgrammWatch;
+			productName = VeryTestProgrammWatch;
+			productReference = 2C2913662A2D8D9C009FCC0C /* VeryTestProgrammWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		2C29136A2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2913792A2D8D9E009FCC0C /* Build configuration list for PBXNativeTarget "VeryTestProgrammWatch Watch App" */;
+			buildPhases = (
+				2C2913672A2D8D9C009FCC0C /* Sources */,
+				2C2913682A2D8D9C009FCC0C /* Frameworks */,
+				2C2913692A2D8D9C009FCC0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VeryTestProgrammWatch Watch App";
+			productName = "VeryTestProgrammWatch Watch App";
+			productReference = 2C29136B2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		2C54FCBF2A19043700468D02 /* VeryTestProgram */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C54FCCE2A19043C00468D02 /* Build configuration list for PBXNativeTarget "VeryTestProgram" */;
@@ -489,6 +635,12 @@
 					2C23EBE62A1CD1630026F9DE = {
 						CreatedOnToolsVersion = 14.3;
 					};
+					2C2913652A2D8D9C009FCC0C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2C29136A2A2D8D9C009FCC0C = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					2C54FCBF2A19043700468D02 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -517,6 +669,8 @@
 				2C54FCBF2A19043700468D02 /* VeryTestProgram */,
 				2C23EBE62A1CD1630026F9DE /* VeryTestWidgetExtension */,
 				2C7254712A25B54300FC3DB3 /* VeryTestProgramTests */,
+				2C2913652A2D8D9C009FCC0C /* VeryTestProgrammWatch */,
+				2C29136A2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -527,6 +681,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C23EBF32A1CD1650026F9DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2913642A2D8D9C009FCC0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2913692A2D8D9C009FCC0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2913782A2D8D9E009FCC0C /* Preview Assets.xcassets in Resources */,
+				2C2913752A2D8D9E009FCC0C /* Assets.xcassets in Resources */,
+				2C2913872A2D8EAB009FCC0C /* Inter-Regular.ttf in Resources */,
+				2C2913862A2D8EAB009FCC0C /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +739,17 @@
 				2CBF68F32A1F7E5A00BFC82D /* MostIntents.intentdefinition in Sources */,
 				2CBF68F12A1F719E00BFC82D /* MostVeryTestWidget.swift in Sources */,
 				2C23EBF12A1CD1630026F9DE /* VeryTestWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2913672A2D8D9C009FCC0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2913832A2D8E53009FCC0C /* SmartHome-1.swift in Sources */,
+				2C2913732A2D8D9C009FCC0C /* ContentView.swift in Sources */,
+				2C2913712A2D8D9C009FCC0C /* VeryTestProgrammWatchApp.swift in Sources */,
+				2C29138D2A2D90C5009FCC0C /* Relative.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +798,11 @@
 			isa = PBXTargetDependency;
 			target = 2C23EBE62A1CD1630026F9DE /* VeryTestWidgetExtension */;
 			targetProxy = 2C23EBF52A1CD1650026F9DE /* PBXContainerItemProxy */;
+		};
+		2C29136E2A2D8D9C009FCC0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C29136A2A2D8D9C009FCC0C /* VeryTestProgrammWatch Watch App */;
+			targetProxy = 2C29136D2A2D8D9C009FCC0C /* PBXContainerItemProxy */;
 		};
 		2C7254772A25B54300FC3DB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -679,6 +867,98 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C29137A2A2D8D9E009FCC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VeryTestProgrammWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N5Q5NU635P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VeryTestProgrammWatch Watch App/Common/VeryTestProgrammWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = VeryTestProgrammWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.VeryTestProgrammWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		2C29137B2A2D8D9E009FCC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VeryTestProgrammWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N5Q5NU635P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VeryTestProgrammWatch Watch App/Common/VeryTestProgrammWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = VeryTestProgrammWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.VeryTestProgrammWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		2C29137E2A2D8D9E009FCC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5Q5NU635P;
+				INFOPLIST_KEY_CFBundleDisplayName = VeryTestProgrammWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.VeryTestProgrammWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C29137F2A2D8D9E009FCC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5Q5NU635P;
+				INFOPLIST_KEY_CFBundleDisplayName = VeryTestProgrammWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.VeryTestProgrammWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -910,6 +1190,24 @@
 			buildConfigurations = (
 				2C23EBF92A1CD1650026F9DE /* Debug */,
 				2C23EBFA2A1CD1650026F9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C2913792A2D8D9E009FCC0C /* Build configuration list for PBXNativeTarget "VeryTestProgrammWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C29137A2A2D8D9E009FCC0C /* Debug */,
+				2C29137B2A2D8D9E009FCC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C29137D2A2D8D9E009FCC0C /* Build configuration list for PBXNativeTarget "VeryTestProgrammWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C29137E2A2D8D9E009FCC0C /* Debug */,
+				2C29137F2A2D8D9E009FCC0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
