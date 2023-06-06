@@ -40,6 +40,9 @@
 		2C64941E2A2DA5D8003CD029 /* SmartHome-4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64941D2A2DA5D8003CD029 /* SmartHome-4.swift */; };
 		2C6494212A2DB089003CD029 /* Bank-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6494202A2DB089003CD029 /* Bank-2.swift */; };
 		2C6494232A2DB209003CD029 /* Relative2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6494222A2DB209003CD029 /* Relative2.swift */; };
+		2C6494262A2DD7F7003CD029 /* SocketsVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6494252A2DD7F7003CD029 /* SocketsVm.swift */; };
+		2C6494282A2DD806003CD029 /* SocketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6494272A2DD806003CD029 /* SocketsView.swift */; };
+		2C64942B2A2DD8C1003CD029 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 2C64942A2A2DD8C1003CD029 /* Starscream */; };
 		2C7254752A25B54300FC3DB3 /* VeryTestProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7254742A25B54300FC3DB3 /* VeryTestProgramTests.swift */; };
 		2C72547D2A25CACE00FC3DB3 /* ChartsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72547C2A25CACE00FC3DB3 /* ChartsVM.swift */; };
 		2C72547F2A25CADB00FC3DB3 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72547E2A25CADB00FC3DB3 /* ChartsView.swift */; };
@@ -157,6 +160,8 @@
 		2C64941D2A2DA5D8003CD029 /* SmartHome-4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartHome-4.swift"; sourceTree = "<group>"; };
 		2C6494202A2DB089003CD029 /* Bank-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bank-2.swift"; sourceTree = "<group>"; };
 		2C6494222A2DB209003CD029 /* Relative2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relative2.swift; sourceTree = "<group>"; };
+		2C6494252A2DD7F7003CD029 /* SocketsVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketsVm.swift; sourceTree = "<group>"; };
+		2C6494272A2DD806003CD029 /* SocketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketsView.swift; sourceTree = "<group>"; };
 		2C7254722A25B54300FC3DB3 /* VeryTestProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeryTestProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7254742A25B54300FC3DB3 /* VeryTestProgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryTestProgramTests.swift; sourceTree = "<group>"; };
 		2C72547C2A25CACE00FC3DB3 /* ChartsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsVM.swift; sourceTree = "<group>"; };
@@ -209,6 +214,7 @@
 			files = (
 				2CC88B7B2A1F9AC4006AF585 /* Alamofire in Frameworks */,
 				2CBE62F72A25E1D900D82216 /* Charts in Frameworks */,
+				2C64942B2A2DD8C1003CD029 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +376,7 @@
 		2C54FCC22A19043700468D02 /* VeryTestProgram */ = {
 			isa = PBXGroup;
 			children = (
+				2C6494242A2DD7E0003CD029 /* Sockets */,
 				2CD2A2F82A273232008A173E /* DesignedScreens */,
 				2C47C8F92A26EB1C00788847 /* Camera */,
 				2CBE62F52A25E19100D82216 /* Charts-master */,
@@ -439,6 +446,15 @@
 				2C6494202A2DB089003CD029 /* Bank-2.swift */,
 			);
 			path = Bank;
+			sourceTree = "<group>";
+		};
+		2C6494242A2DD7E0003CD029 /* Sockets */ = {
+			isa = PBXGroup;
+			children = (
+				2C6494252A2DD7F7003CD029 /* SocketsVm.swift */,
+				2C6494272A2DD806003CD029 /* SocketsView.swift */,
+			);
+			path = Sockets;
 			sourceTree = "<group>";
 		};
 		2C7254732A25B54300FC3DB3 /* VeryTestProgramTests */ = {
@@ -616,6 +632,7 @@
 			packageProductDependencies = (
 				2CC88B7A2A1F9AC4006AF585 /* Alamofire */,
 				2CBE62F62A25E1D900D82216 /* Charts */,
+				2C64942A2A2DD8C1003CD029 /* Starscream */,
 			);
 			productName = VeryTestProgram;
 			productReference = 2C54FCC02A19043700468D02 /* VeryTestProgram.app */;
@@ -678,6 +695,7 @@
 			mainGroup = 2C54FCB72A19043700468D02;
 			packageReferences = (
 				2CC88B792A1F9AC4006AF585 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2C6494292A2DD8C1003CD029 /* XCRemoteSwiftPackageReference "Starscream" */,
 			);
 			productRefGroup = 2C54FCC12A19043700468D02 /* Products */;
 			projectDirPath = "";
@@ -786,8 +804,10 @@
 				2C54FCD42A19093600468D02 /* NavVM.swift in Sources */,
 				2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */,
 				2C23EC032A1F30970026F9DE /* WidgetInteractionVM.swift in Sources */,
+				2C6494262A2DD7F7003CD029 /* SocketsVm.swift in Sources */,
 				2CBE62F12A25D6EB00D82216 /* ChartsData.swift in Sources */,
 				2C23EC012A1F308A0026F9DE /* WidgetInteractionView.swift in Sources */,
+				2C6494282A2DD806003CD029 /* SocketsView.swift in Sources */,
 				2C54FCC62A19043700468D02 /* ParentView.swift in Sources */,
 				2C47C9012A270F0C00788847 /* PhotoDelegate.swift in Sources */,
 				2CBE62EF2A25D34900D82216 /* ChartFromUIKit.swift in Sources */,
@@ -1262,6 +1282,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2C6494292A2DD8C1003CD029 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		2CC88B792A1F9AC4006AF585 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -1273,6 +1301,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2C64942A2A2DD8C1003CD029 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C6494292A2DD8C1003CD029 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
 		2C9742522A1F9BAE00308101 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2CC88B792A1F9AC4006AF585 /* XCRemoteSwiftPackageReference "Alamofire" */;
