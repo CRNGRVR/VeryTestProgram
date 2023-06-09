@@ -59,6 +59,7 @@
 		2CC21D252A273C8100D05676 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CC21D222A273C8000D05676 /* OpenSans-Bold.ttf */; };
 		2CC88B782A1F8DA2006AF585 /* MostIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF68F22A1F7E5A00BFC82D /* MostIntents.intentdefinition */; };
 		2CC88B7B2A1F9AC4006AF585 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC88B7A2A1F9AC4006AF585 /* Alamofire */; };
+		2CD06EAD2A2FAFBA00C3E65C /* VK-FEED-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD06EAC2A2FAFBA00C3E65C /* VK-FEED-1.swift */; };
 		2CD90C332A2716D100907588 /* PhotoInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD90C322A2716D100907588 /* PhotoInteraction.swift */; };
 		2CE2C6B62A285BB40039090C /* PaddingRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2C6B52A285BB40039090C /* PaddingRelation.swift */; };
 		2CF3A9432A2990690020487B /* Sport-16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3A9422A2990690020487B /* Sport-16.swift */; };
@@ -176,6 +177,7 @@
 		2CC21D202A273C8000D05676 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		2CC21D212A273C8000D05676 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		2CC21D222A273C8000D05676 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		2CD06EAC2A2FAFBA00C3E65C /* VK-FEED-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VK-FEED-1.swift"; sourceTree = "<group>"; };
 		2CD90C322A2716D100907588 /* PhotoInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInteraction.swift; sourceTree = "<group>"; };
 		2CE2C6B52A285BB40039090C /* PaddingRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingRelation.swift; sourceTree = "<group>"; };
 		2CF3A9422A2990690020487B /* Sport-16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sport-16.swift"; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 		2C29135F2A2D8C03009FCC0C /* Mobile-adaptive */ = {
 			isa = PBXGroup;
 			children = (
+				2CE2C6B52A285BB40039090C /* PaddingRelation.swift */,
 				2CF3A9512A29BAA00020487B /* Podcasts */,
 				2CF3A9412A29900D0020487B /* Sportify */,
 				2CB816452A2877DC00837374 /* Food */,
@@ -512,11 +515,19 @@
 			path = Food;
 			sourceTree = "<group>";
 		};
+		2CD06EAB2A2FADDB00C3E65C /* Tablet-adaptive */ = {
+			isa = PBXGroup;
+			children = (
+				2CD06EAC2A2FAFBA00C3E65C /* VK-FEED-1.swift */,
+			);
+			path = "Tablet-adaptive";
+			sourceTree = "<group>";
+		};
 		2CD2A2F82A273232008A173E /* DesignedScreens */ = {
 			isa = PBXGroup;
 			children = (
+				2CD06EAB2A2FADDB00C3E65C /* Tablet-adaptive */,
 				2C29135F2A2D8C03009FCC0C /* Mobile-adaptive */,
-				2CE2C6B52A285BB40039090C /* PaddingRelation.swift */,
 			);
 			path = DesignedScreens;
 			sourceTree = "<group>";
@@ -805,6 +816,7 @@
 				2C54FCD82A19095D00468D02 /* TouchFaceIDView.swift in Sources */,
 				2C23EC032A1F30970026F9DE /* WidgetInteractionVM.swift in Sources */,
 				2C6494262A2DD7F7003CD029 /* SocketsVm.swift in Sources */,
+				2CD06EAD2A2FAFBA00C3E65C /* VK-FEED-1.swift in Sources */,
 				2CBE62F12A25D6EB00D82216 /* ChartsData.swift in Sources */,
 				2C23EC012A1F308A0026F9DE /* WidgetInteractionView.swift in Sources */,
 				2C6494282A2DD806003CD029 /* SocketsView.swift in Sources */,

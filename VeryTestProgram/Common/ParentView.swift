@@ -26,7 +26,8 @@ struct ParentView: View {
         //WidgetInteractionView()
         //CameraView()
         //Podcasts()
-        SocketsView()
+        //SocketsView()
+        VK_FEED_1()
     }
 }
 
